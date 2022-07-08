@@ -1,0 +1,217 @@
+html body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.left img{
+    width:40px;
+    height:30px;
+    padding-top: 12px;
+}
+.flex {
+    display: flex;
+}
+.flex1 li{
+    text-decoration: none;
+}
+
+nav ul li{
+    display:flex;
+    list-style: none;
+    padding:0 8px;
+    text-decoration:none;
+
+}
+nav ul li:hover{
+    color: fuchsia;
+    text-decoration: underline;
+}
+.right{
+    display:flex;
+    padding: 0 12px;
+
+}
+.text1 {
+    padding-top:7px;
+    padding-left:30px ;
+    height:8px;
+    width:250px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background:rgb(240, 241, 243) ;
+    /* border-radius: 5px; */
+}
+placeholder{
+    text-align: center;
+    justify-content: center;
+}
+input{
+    text-align: center;
+    justify-content: center;
+}
+.profile{
+    /* padding-left: 2px; */
+    padding: 0 15px;
+}
+header{
+    border:2px solid white ;
+    justify-content: center;
+    position: absolute;
+
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color:rgb(58, 54, 55) ;
+    text-decoration: underline;
+}
+h1:hover{
+    color: palevioletred;
+    text-decoration:none ;
+}
+h3{
+    font-weight: lighter;
+    background-color: rgb(235, 231, 227);
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(227, 234, 246);
+
+}
+section .img2{
+
+}
+#btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px solid red;
+}
+#logo{
+    height:25%;
+    width:35%;
+}
+.img{
+    display: flex;
+    height:200px ;
+    background-repeat:no-repeat ;
+}
+.img2{
+    display: flex;
+    height: 200px;
+    background-repeat:no-repeat ;
+}
+.title4{
+    display: flex;
+    height: 200px;
+    background-repeat:no-repeat ;
+
+}
+.right:hover{
+    text-decoration: underline;
+    color: fuchsia;
+}
+.x1 h3{
+    text-decoration: underline;
+    justify-content: center;
+    /* color: rgb(31, 213, 213); */
+}
+
+
+/* to make responsive website */
+/* Samsung Galaxy Note 5	1440 x 2560 */
+/* @media (max-width:500px){
+    header{
+        background:greenyellow;
+        flex-direction: column;
+    }
+} */
+@media(max-width:500px){
+nav  {
+    background:greenyellow;
+        flex-direction: column;
+
+}
+}
+@media(max-width:500px){
+    .sonu img {
+width:500px;
+    }
+}
+
+@media(max-width:500px){
+    .img7{
+        width:500px;
+        height:auto;
+        flex-direction: column;
+        repeat:no-repeat;
+
+    }
+}
+@media(max-width:500px){
+   .title1{
+width:500px;
+height:auto;
+   }
+}
+@media(max-width:500px){
+    .img3 {
+flex-direction: column;
+height: auto;
+    }  
+}
+@media(max-width:500px){
+    .gift img {
+        width:auto;
+flex-direction: column;
+height: auto;
+    }  
+}
+#btn1{
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    background-color:violet;
+    margin-left: 350px;
+}
+/* #sale{
+    width:100%;
+    height:400px;
+    background-color: rgb(168, 168, 238);
+} */
+#h3{
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    color:rgb(238, 12, 212);
+    font-weight: bolder;
+    font-style: italic;
+}
+#signup{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    background-color:violet;
+    margin-left: 50px;
+    
+}
+#btn2{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    background-color:violet;
+    margin-left: 300px;
+    
+}
+#h5{
+    font-weight: lighter ;
+}
+.img7{
+    display:flex;
+    height:200px;
+}
